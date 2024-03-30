@@ -1,0 +1,98 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1 id="title">Yacht Crew Survey</h1>
+    <p id="description">A brief survey for yacht crew to improve future employment</p>
+    <form id="survey-form">
+     <fieldset>
+     <label id="name-label">First Name <input name="name" id="name" type="text" placeholder="John Doe" required></label>
+      <label id="email-label">Email <input name="email" id="email" type="email"placeholder="johndoe@survey.com" required></label>
+      <label id="number-label">Age (In Years) <input name="number" id="number" type="number" min="13" max="100" placeholder="69" required></label></fieldset>
+      <fieldset>
+        <label>How many years have you been in yachting?</label>
+      <select id="dropdown">
+        <option>0-2 years</option>
+        <option>2-5 years</option>
+        <option>5-10 years</option>
+        <option>10+ years</option>
+        </select>
+        </fieldset>
+        <fieldset>
+<legend>Which department do you work in?</legend>
+       <label><input type="radio" id="interior" name="department" value="1" checked>Interior</label>
+       <label><input type="radio" id="deck" name="department" value="2">Deck</label>
+       <label><input type="radio" id="engineering" name="department" value="3">Engineering</label>
+       <label><input type="radio" id="dual-role" name="department" value="4">Dual Role</label>
+       <label><input type="radio" id="unemployed" name="department" value="5">Unemployed</label>
+        </fieldset>
+        <fieldset>
+          <legend>Tick any hobbies that you enjoy in your free time</legend>
+          <label for="exercise">
+          <input id="exercise" value="1" type="checkbox">Exercise and Sports</label>
+          <label for="exercise">
+          <input id="eating" value="2" type="checkbox">Eating and Drinking</label>
+          <label for="gaming">
+          <input id="gaming" value="3" type="checkbox">Gaming and Films</label>
+          <label for="reading"><input id="reading" value="4" type="checkbox">Reading and Learning</label>
+        </fieldset>
+        <fieldset>
+          <label>Tell us about your best yachting experience...</label>
+          <textarea rows="3" cols="60"></textarea>
+                  </fieldset>
+                  <input type="submit" id="submit" value="Submit">
+    </form>
+  </body>
+</html>
+
+** end of undefined **
+
+** start of undefined **
+
+body {
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  background-color: #1b1b32;
+  color: #f5f6f7;
+  font-family: Tahoma;
+  font-size: 16px;
+}
+h1, p {
+  margin: 1em auto;
+  text-align: center;
+}
+fieldset {
+  border: none;
+  padding: 2rem 0;
+  border-bottom: 3px solid #3b3b4f;
+}
+form {
+  width: 60vw;
+  max-width: 500px;
+  min-width: 300px;
+  margin: 0 auto;
+  padding-bottom: 2em;
+}
+label {
+  display: block;
+  margin: 0.5rem 0;
+}
+input[type="submit"] {
+  display: block;
+  width: 60%;
+  margin: 1em auto;
+  height: 2em;
+  font-size: 1.1rem;
+  background-color: #3b3b4f;
+  border-color: white;
+  min-width: 300px;
+}
+
+** end of undefined **
+
