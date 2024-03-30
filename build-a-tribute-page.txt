@@ -1,0 +1,54 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en">
+<main id="main">
+  <head>
+    <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <title id="title">Frodo</title>
+    </head>
+    <body>
+      <h1>Frodo</h1>
+      <p>A tribute page dedicated to my cat called Frodo</p>
+      <div id="img-div"><img class="catpic" id="image" src="https://publish.purewow.net/wp-content/uploads/sites/2/2023/11/black-cat-breeds-.jpg?fit=2050%2C1100">      
+     <div id="img-caption"><text  class="img-caption" >Frodo The Cat</text></div></div>
+      <p id="tribute-info">Frodo is the best cat in the whole wide world</p>
+      <p><a target="_blank" id="tribute-link" href="https://www.thesprucepets.com/facts-about-black-cats-554102">Facts About Black Cats</a></p>
+    </body>
+</main>
+ </html>
+
+** end of undefined **
+
+** start of undefined **
+
+h1 {
+  text-size: 25px;
+  font-family: Tahoma;
+  color: Pink;
+  text-align: center;
+}
+
+p {
+  font-size: 18px;
+  font-family: Tahoma;
+  color: purple;
+  text-align: center;
+}
+.catpic {
+  display: block;
+  justify-content: center;
+  align-items: center;
+  max-width: 100%;
+  height: auto;
+}
+.img-caption {
+  font-size: 12px;
+  text-align: left;
+  color: purple;
+  font-family: Tahoma;
+}
+
+** end of undefined **
+
